@@ -1,0 +1,312 @@
+.side_bar{
+	width: 270px;
+	height: 80%;
+	background:#5b50ff;
+	position: fixed;
+	color: white;
+	margin-top: 100px;
+	margin-left: 20px;
+	transition: 0.3s ease-in-out;
+}
+.side_bar .profile{
+	text-align: center;
+	padding-top: 120px;
+}
+.side_bar .elm{
+	margin-top: 60px;
+}
+.side_bar .elm .hover{
+	padding-left: 20px;
+	height:40px;
+	padding-top: 5px;
+	cursor: pointer;
+	transition: 0.1s ease-in-out;
+	display: flex;
+	font-size: 18px;
+}
+.side_bar .elm .hover:hover{
+	background:#ff7171;
+
+}
+.side_bar .elm .hover a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.side_bar .elm .hover svg{
+	margin-top: 4px;
+}
+
+
+.side_bar2{
+	width: 0px;
+	height: 80%;
+	background:#5b50ff;
+	position: fixed;
+	color: white;
+	margin-top: 100px;
+	margin-left: 0px;
+	transition: 0.3s ease-in-out;
+	overflow: hidden;
+}
+.side_bar2 .profile{
+	text-align: center;
+	padding-top: 120px;
+}
+.side_bar2 .elm{
+	margin-top: 60px;
+}
+.side_bar2 .elm .hover{
+	padding-left: 20px;
+	height:40px;
+	padding-top: 5px;
+	cursor: pointer;
+	transition: 0.1s ease-in-out;
+	display: flex;
+	font-size: 18px;
+}
+.side_bar2 .elm .hover:hover{
+	background:#ff7171;
+
+}
+.side_bar2 .elm .hover a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.side_bar2 .elm .hover svg{
+	margin-top: 4px;
+}
+
+.navBar{
+	background:#dddddd;
+	width: 90%;
+	height: 60px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	display: flex;
+}
+.navBar .br{
+	margin-left: 20px;
+}
+.navBar .br h4{
+	line-height: 55px;
+}
+.navBar .but{
+	margin-top: 10px;
+	right: 100px;
+	position: absolute;
+}
+.navBar .but a{
+	margin-left: 20px;
+}
+.navBar .but input{
+	padding-left: 10px;
+	background: transparent;
+	border-top: none;
+	border-bottom:2px solid black;
+	border-left: none;
+	border-right: none;
+	outline: none;
+	margin-left: 30px;
+}
+
+
+
+
+.dashboard{
+	position: absolute;
+	margin-left: 320px;
+	margin-top: 150px;
+}
+.dashboard .cards{
+	display: grid;
+}
+.dashboard .cards .card{
+	box-shadow: 0px 0px 30px #00ffe7;
+	background-image:linear-gradient(#0089ff,#00ffe7);
+	margin: auto;
+	margin-left: 20px;	
+	margin-top: 20px;
+	width: 100%;
+
+}
+.dashboard .lowerCard{
+	margin-top: 120px;
+}
+.menu{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 20px;
+	display: none;
+}
+
+@media(max-width: 782px){
+
+
+
+	.dashboard .cards{
+	display: grid;
+}
+.dashboard .cards .card{
+	margin-top: 30px;
+}
+
+
+@media(max-width: 631px){
+		.side_bar{
+	width: 270px;
+	overflow: hidden;	
+	margin-top: 100px;
+	position: absolute;
+	height: 100%;
+	margin-left: 0px;
+}
+}
+
+
+}
+@media(max-width:630px){
+
+
+	.side_bar{
+	width: 0px;
+	overflow: hidden;	
+	margin-top: 100px;
+	position: absolute;
+	height: 100%;
+	margin-left: 0px;
+}
+
+
+.dashboard{
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.navBar .but{
+	display: none;
+}
+.menu{
+	display: block;
+	color:#ff7171;
+}
+
+}
+
+
+
+.profiled{
+	margin-left: 30px;
+	margin-top: 150px;
+	margin-left: 350px;
+	position: absolute;
+	display: none;
+}
+.profiled .inputs{
+	display: flex;
+}
+.profiled .inputs input{
+	margin-left: 20px;
+}
+.profiled .inputs select{
+	margin-left: 20px;
+}
+@media(max-width: 866px){
+	.profiled .inputs{
+	display: grid;
+}
+.profiled .inputs input{
+	margin-top: 20px;
+}
+.profiled .inputs select{
+	margin-top: 20px;
+}
+
+}
+
+@media(max-width: 630px){
+	.profiled{
+		margin: auto;
+		margin-top: 200px;
+	}
+}
+.buttod{
+	margin-top: 50px;
+	margin-left:30px;
+}
+.setting{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 100px;
+	display: none;
+}
+.setting .apperance{
+	margin-top: 100px;
+}
+.setting .apperance input{
+	width: 200px;
+	border: 2px solid blue;
+	border-radius: 10px;
+}
+
+@media(max-width: 630px){
+	.setting{
+		margin: auto;
+		margin-top: 120px;
+		text-align: center;
+	}
+}
+.notification{
+	position:absolute;
+	margin: auto;
+	width: 75%;
+	margin-left: 300px;
+	margin-top:250px;
+    display: none;
+}
+.notification .panel button{
+    margin-left:200px;
+    margin-top:50px;
+}
+.notification .panel{
+	width:900px;
+	height: 300px;
+    background-color:#4343fd59;
+	margin: auto;
+	justify-content: center;
+}
+.notification .form-group{
+    margin-top: 100px;
+    text-align: center;
+}
+.notification .form-group textarea{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    
+}
+@media(max-width:1186px){
+    .notification{
+	margin-left:250px;
+    }
+    .notification .panel{
+        width:400px;
+    }
+}
+@media(max-width:630px){
+    .notification{
+        margin-left: 30px;
+    }
+    .notification .panel{
+        width:300px;   
+    }
+    .notification .form-group textarea{
+         width: 200px;
+    }
+    .notification .panel button{
+        margin-left: 20px;
+    }
+}

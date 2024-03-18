@@ -1,0 +1,52 @@
+*{
+ font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0px;
+  padding:0px;
+  scroll-behavior: smooth;
+}
+body,html{
+	background: whitesmoke;
+}
+.img img{
+	width: 100%;
+	height: 400px;
+}
+.flex_massage{
+	position: absolute;
+	color: white;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.cards_flex{
+	display: flex;
+}
+.cards_flex .card{
+	margin-left: 20px;
+}
+@media(max-width: 841px){
+	.cards_flex{
+		display: grid;
+	}
+	.cards_flex .card{
+		margin: auto;
+		margin-top: 50px;
+	}
+}
+
+#body{
+	opacity: 0;
+	transition: 1s ease-in-out;
+}
+.loder{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.loder .cen{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 400px;
+}

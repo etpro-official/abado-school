@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style/main-serve-style.css">
+<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Abado Secondary School</title>
+</head>
+<body onload="page_loaded_ani_style()">
+
+
+
+<div id="page_loder" class="page_loder">
+
+<div class="cir">
+<div class="spinner-border text-primary" style="width: 7rem; height:7rem;" role="status"></div>
+</div>
+
+
+</div>
+
+<div id="body">
+
+
+
+
+<div id="nav" class="nav_bar">
+	<div class="logo">
+	<h1>Abado High School </h1>
+</div>
+<div class="button">
+	<a href="#">Home</a>
+	<a href="#about">About</a>
+	<a onclick="page_opener()" href="#">Pages</a>
+	<a href="#">Contact</a>
+	<button id="sign" onclick="signup()">Sign Up</button>
+	<button id="login" onclick="login()">Login</button>
+</div>
+
+<div id="paged" class="pages"><br>
+	<div class="hover"><a href="">Teachers</a></div>
+	<div class="hover"><a href="">Students</a></div>
+	<div class="hover"><a href="">Books</a></div>
+</div>
+
+<div class="menued">
+	<h1 onclick="open_bar_menu_function()">&#9776; </h1>
+</div>
+
+</div>
+
+<div id="hid" class="hide_menu">
+	<div class="btx">
+		<a href="#"onclick="clos()">Home</a><br><br>
+	<a href="#about" onclick="clos()">About</a><br><br>
+	<a href="#"onclick="clos()">Pages</a><br><br>
+	<a href="#"onclick="clos()">Contact</a><br><br>
+	<button id="sign"onclick="clos()">Sign Up</button><br><br>
+	<button id="login"onclick="clos()">Login</button>
+</div>
+</div>
+
+<div class="image_part">
+	<div id="msgd" class="msg">
+		<h1><span>Welcome</span> To Abado Official Page</h1><br><br>
+	<h2>Welcome To This <span> Official Page</span> In This Page You Get Many <span>Info</span><br>
+		About Abado Secondary School.<span>Developed</span> By Yohanes Mulugeta. 
+	 </h2><br>
+	 <h3>For More Information About This Web And School Scroll Down Or Use Navigation Bar </h3>
+	 <br><br>
+	 <button onclick="ops()" id="lern">Learn More</button>
+	</div>
+	<div  class="image">
+		<img id="mds" src="images/carousel-2.jpg">
+	</div>
+</div>
+
+
+<div class="cards">
+	<div class="flex">
+
+
+	<div id="cd1" class="cardsd"><br><br><br>
+		<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg><br>
+<h4>You Can Get Book For Students By .PDF Extension. Explore For Book</h4>
+	</div>
+
+
+
+	<div id="cd2" class="cardsd"><br><br><br>
+		<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-alarm-fill" viewBox="0 0 16 16">
+  <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527"/><br>
+  <h4>Time Safe For Get Smart And Fast Information About School</h4>
+</svg>
+	</div>
+
+
+
+	<div id="cd3" class="cardsd"><br><br><br>
+		<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-compass" viewBox="0 0 16 16">
+  <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016m6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+  <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+</svg><br>
+<h4>Accessibility By Any Location. For Any User Use It And Get Advert About School</h4>
+	</div>
+
+
+
+	<div id="cd4" class="cardsd"><br><br><br>
+		<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+</svg><br>
+<h4>Modern Learning And Communication System By Student Teachers And Any Users</h4>
+	</div>
+</div>
+</div>
+
+
+<div id="about" class="about">
+	<div class="flx">
+		<img id="img_ss" src="images/carousel-1.jpg">
+		<div id="mdss" class="md">
+			<h1> <span>About</span> Us</h1><br>
+			<h3>We Are <span>Abado Secondary Schools</span> This Web Is To Get New News And New Information About Schools Like Test Exam <span>Programs</span> And To Show Meeting Programs <span>And Conference</span>. And Also Smart And Safe Student Teacher And <span>Other</span> Time </h3>
+			<button class="btn btn-secondary" onclick="ops()">Learn More</button>
+		</div>
+	</div>
+</div>
+
+
+<div id="nwssd" class="news">
+	<div id="boxed" class="box">
+		<h2>Most Recent News</h2><br>
+		<h3>Poster Name</h3><br>
+		<p id="new_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br>
+		<button>Feed Back</button>
+	</div>
+</div>
+<br><br><br><br><br><br>
+<div class="books">
+		<div class="flex">
+
+		<div id="book_dvv1" class="book_card"><br><br><br>
+				<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+			<h3>Grade 9 Books</h3>
+		</div>
+
+
+
+
+		<div id="book_dvv2" class="book_card"><br><br><br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+			<h3>Grade 10 Books</h3>
+		</div>
+
+
+		<div id="book_dvv3" class="book_card"><br><br><br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+			<h3>Grade 11 Books</h3>
+		</div>
+
+		<div id="book_dvv4" class="book_card"><br><br><br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+			<h3>Grade 12 Books</h3>
+		</div>	
+
+
+</div><br><br><br><br>
+<h1 style="text-align: center;"> Explore Books !</h1>
+<br><br><br><br>
+<hr>
+</div><br><br><br>
+
+
+<div class="footer">
+
+
+<div class="flex_fo">
+	
+<div class="bts_fo">
+	<a href="">Home</a><br><br>
+	<a href="">About</a><br><br>
+	<a href="">Explore Books</a><br><br>
+	<a href="">Sign Up</a><br><br>
+	<a href="">Login</a><br><br>
+</div>
+
+<div class="bts_fo">
+	<a href="">Developed By</a><br><br>
+	<a href="">Teachers Page</a><br><br>
+	<a href="">Students Page</a><br><br>
+	<a href="">News Today</a><br><br>
+	<a href="">Privacy & Policy</a><br><br>
+</div>
+
+
+<div class="bts_fo">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+  <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.64.64 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.64.64 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+</svg><br>
+<br>
+<h4 style="color: white;">Contact</h4>
+<p style="color: white;">Tel 1:+251 90029474</p>
+<p style="color: white;">Tel 2:+251 90029474</p>
+
+</div>
+
+
+<div class="bts_fo">
+     <input id="input"
+      type="email" name="emai" 
+      placeholder="Subscirbe">
+      <button id="sub_btx">Subscribe</button>
+</div>
+
+
+</div>	
+
+<div class="line"></div>
+
+<div class="bot">
+	<a href="">Copy Right &copy; Abado Secondary School. <b style="text-decoration: underline;">Developed By Jo</b></a><br>
+	<div class="rig"><br><br>
+		<a href="">Home</a>
+		<a href="">About</a>
+		<a href="">FQAs</a>
+	</div>
+</div>
+
+</div>
+
+
+
+<div id="up" class="upp_ward"><a href="#"><h1>&#x2191;</h1></a></div>
+
+
+</div>
+
+
+<script src="script/main-js-struc.js"></script>
+
+</body>
+</html>

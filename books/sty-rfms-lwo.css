@@ -1,0 +1,22 @@
+.cards{
+	display: flex;
+}
+.cards .card{
+	margin: auto;
+	margin-left: 20px;
+}
+#body{
+	opacity: 0;
+	transition: 1s ease-in-out;
+}
+.loder{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.loder .loms{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 300px;
+}
